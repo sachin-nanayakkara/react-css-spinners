@@ -16,5 +16,28 @@
   "bugs": {
     "url": "https://github.com/SACHINnANYAKKARA/react-css-spinners/issues"
   },
-  "homepage": "https://github.com/SACHINnANYAKKARA/react-css-spinners#readme"
+  "homepage": "https://github.com/SACHINnANYAKKARA/react-css-spinners#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-react": "^7.7.4",
+    "@typescript-eslint/eslint-plugin": "^2.9.0",
+    "@typescript-eslint/parser": "^2.9.0",
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "husky": "^3.1.0",
+    "lint-staged": "^9.5.0",
+    "prettier-eslint": "^9.0.1",
+    "rollup": "^1.27.6",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^5.1.2"
+  },
+  "dependencies": {
+    "rimraf": "^3.0.0"
+  }
 }
